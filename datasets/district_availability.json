@@ -1,0 +1,26 @@
+{
+  "module": "District Service Availability Mapping",
+  "default_state": "Tamil Nadu",
+  "districts": [
+    "Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore",
+    "Dharmapuri", "Dindigul", "Erode", "Kallakurichi", "Kanchipuram",
+    "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Mayiladuthurai",
+    "Nagapattinam", "Namakkal", "Nilgiris", "Perambalur", "Pudukkottai",
+    "Ramanathapuram", "Ranipet", "Salem", "Sivaganga", "Tenkasi",
+    "Thanjavur", "Theni", "Thoothukudi", "Tiruchirappalli", "Tirunelveli",
+    "Tirupathur", "Tiruppur", "Tiruvallur", "Tiruvannamalai", "Tiruvarur",
+    "Vellore", "Viluppuram", "Virudhunagar"
+  ],
+  "service_district_overrides": {
+    "GOV-INC-001": ["All Districts"],
+    "GOV-DOM-002": ["All Districts"],
+    "GOV-CST-003": ["All Districts"],
+    "GOV-BRT-004": ["All Districts"],
+    "GOV-DTH-005": ["All Districts"],
+    "GOV-DIS-006": ["All Districts"],
+    "GOV-SCH-007": ["All Districts"],
+    "GOV-SCH-008": ["All Districts"],
+    "GOV-PEN-009": ["All Districts"],
+    "GOV-PEN-010": ["All Districts"]
+  }
+}

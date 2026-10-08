@@ -1,0 +1,26 @@
+{
+  "module": "Social Security Pension Rules",
+  "rules": [
+    {
+      "scheme_code": "GOV-PEN-009",
+      "scheme_name": "Indira Gandhi National Old Age Pension Scheme",
+      "min_age": 60,
+      "max_age": 120,
+      "target_group": "Senior Citizens",
+      "bpl_required": true,
+      "pension_amount_per_month": "₹1,000",
+      "required_documents": ["Aadhaar Card", "BPL Ration Card", "Age Proof (Voter ID / Birth Certificate)", "Bank Account Details", "Passport Photograph"]
+    },
+    {
+      "scheme_code": "GOV-PEN-010",
+      "scheme_name": "Indira Gandhi National Widow Pension Scheme",
+      "min_age": 40,
+      "max_age": 79,
+      "gender": "Female",
+      "marital_status": "Widow",
+      "bpl_required": true,
+      "pension_amount_per_month": "₹1,000",
+      "required_documents": ["Aadhaar Card", "Husband Death Certificate", "BPL Ration Card", "Bank Account Details", "Non-Remarriage Declaration"]
+    }
+  ]
+}

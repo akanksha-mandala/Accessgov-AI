@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+/* High contrast mode styles */
+body.high-contrast {
+  @apply bg-black text-yellow-300;
+}
+
+body.high-contrast a,
+body.high-contrast button {
+  @apply text-yellow-400 border-yellow-400;
+}
+
+body.high-contrast .bg-white {
+  @apply bg-zinc-900 text-yellow-300 border-yellow-500;
+}
+
+body.high-contrast .bg-slate-50,
+body.high-contrast .bg-slate-100 {
+  @apply bg-black text-yellow-300;
+}
+
+body.high-contrast .text-slate-500,
+body.high-contrast .text-slate-600,
+body.high-contrast .text-slate-700,
+body.high-contrast .text-slate-800 {
+  @apply text-yellow-300;
+}

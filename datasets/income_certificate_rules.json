@@ -1,0 +1,33 @@
+{
+  "module": "Income Certificate Rules",
+  "service_code": "GOV-INC-001",
+  "verification_authorities": ["Village Administrative Officer (VAO)", "Revenue Inspector (RI)", "Tahsildar"],
+  "validity_days": 365,
+  "required_documents": [
+    {
+      "name": "Aadhaar Card",
+      "mandatory": true,
+      "description": "Proof of Identity and Address"
+    },
+    {
+      "name": "Ration Card",
+      "mandatory": true,
+      "description": "Proof of Family Composition"
+    },
+    {
+      "name": "Salary Slip / Employer Certificate / Self-Declaration",
+      "mandatory": true,
+      "description": "Proof of Annual Income from all sources"
+    },
+    {
+      "name": "Passport Photograph",
+      "mandatory": true,
+      "description": "Recent photograph of applicant"
+    }
+  ],
+  "income_thresholds": {
+    "bpl_limit": 100000,
+    "scholarship_limit": 250000,
+    "ews_limit": 800000
+  }
+}
